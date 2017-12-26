@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增标签</title>
+	笔记本剩余电量：<meter value="88" min="0" max="100"></meter>
+	
+	<br>
+	<h3>audio播放音频</h3>
+	<audio src="D:\HTML5\demo\horse.ogg" controls="true">
+		当看到这行字，意味不能播放音频
+	</audio>
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=450222324&auto=1&height=66"></iframe>
+	<h3>测试网络</h3>
+
+	<script type="text/javascript">
+
+    
+    if (navigator.online) {
+    	alert('online');
+    }else{
+    	alert('offline');
+    }
+
+    window.addEventListener('offline', function(e) {alert('offline');}) 
+	window.addEventListener('online', function(e) {alert('online');})
+
+    </script>
+
+    <script>
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+    } else {
+        alert("您的浏览器不支持地理定位");
+    }
+
+	// 获取地理位置成功的回调函数
+    function successCallback(position){
+    	var longitude = position.coords.longitude; 
+    	var latitude = position.coords.latitude;
+    	alert("经度=" + longitude + "，纬度=" + latitude);
+    }
+
+    
+    
+    // 获取地理位置失败的回调函数
+    function errorCallback(error) {
+        alert("获取用户位置失败");
+    }
+    </script>
+</head>
+<body>
+	
+</body>
+</html>

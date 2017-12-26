@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+
+
+	<!-- 2017/12/18 常用标签 -->
+	<head>
+		<title>常用标签</title>
+	</head>
+
+	<center><p>Hello Html5</p></center>
+
+	<hr></hr>
+
+	 <p></p>
+ 	
+ 	<marquee direction="right"><img src="https://m.baidu.com/static/index/plus/plus_logo.png" alt=""/>
+	
+	</marquee>
+	
+	<p>alt + .</p>
+
+	<button type="button" onclick="onCli()">点击按钮</button>
+
+	<script type="text/javascript">
+	function onCli(){
+	alert('点击了按钮');
+	}
+	</script>
+
+	<br/>
+
+	<a href="https://www.baidu.com" title="baidu" target="_blank">前往百度</a>
+
+</html>

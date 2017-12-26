@@ -1,0 +1,65 @@
+.first-box{
+	height: 100px;
+	width: 250px;
+	background-color: red;
+	float: left;
+	color: white;
+}
+
+.second-box{
+	height: 150px;
+	width: 300px;
+	color: white;
+	background-color: yellowgreen;
+}
+
+.div{
+	width: 1000px;
+	height: 500px;
+	background-color: yellow;	
+}
+
+.div img{
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #000;
+}
+
+li{
+	list-style: none;
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: yellowgreen;
+	color: red;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+.clearfix after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+

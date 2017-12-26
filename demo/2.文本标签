@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 2017/12/19 文本标签 -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本标签</title>
+</head>
+<body>
+	<b>b标签用于粗体显示文字 bold</b>
+	<br>
+	<strong>strong标签用于粗体显示文本，表示重点内容</strong>
+	<br>
+	<a href="https://www.baidu.com" target="_blank"><small>small标签用于显示小号字体</small></a>
+	<br>
+	<i>斜体 italic</i>
+	<br>
+	<em>也是斜体 emphasize</em>
+	<br>
+	<!-- strong和em 比 b和i 更表示强调-->
+	<u>下划线 underline</u>
+	<br>
+	这里是上标<sup>2017/12/19 superscript</sup>
+	<br>
+	这里是下标<sub>1 subscipt</sub>
+	<br>
+	<span style="color: #f00">红色</span>
+	<span style="color: #0f0">绿色</span>
+	<br>
+	<font color="black" size="15">15号黑色字体</font>
+</body>
+</html>

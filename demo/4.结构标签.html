@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>结构标签</title>
+	<div align="center" style="color: #f0f">
+		<p>div标签在页面中非常常见，也常将其称为标签容器</p>
+		<p>我们可以将一组功能相关的标签放到同一个div中，也可以对该标签内的元素作统一处理，比如设置对齐方式，背景颜色</p>
+	</div>
+
+	<section>
+	<h1>section的标题</h1>
+	<p>在页面中大量使用div标签导致页面的语义性下降。因此HTML5中引入了新的结构标签article和section.</p>
+	<p>section不仅仅是一个标签容器，它带有明显的语义。该标签常用于对网站或者应用程序中页面上的内容进行分块。比如，网站的主页可以分成简介、新闻和联系方式等几部分，那么每一部分都可以放到一个section里面；类似地，文章的章节、标签对话框中的标签页、或者论文中有编号的部分也可以放到一个section中。请注意：官方文档建议，在使用section时每个section标签中应带一个标题标签(h1-h6)，从而表达更清晰的语义。</p>
+	
+	</section>
+
+	<article>
+		<header><h1>article的标题</h1></header>
+		<pre>article是一个特殊的section标签，它比section更具有明确的语义。也就是说：无论从结构上还是内容上来说，它代表一个独立的、完整的相关内容块。例如：博客中的一篇文章，论坛中的一个帖子或者一段浏览者的评论等。一般来说，article也有标题部分(通常包含在header内)，类似地它还有footer部分。</pre>
+		<footer><h2>article的结尾</h2></footer>
+		
+	</article>
+
+	<p>div、section、article这三个标签的语义是从无到有，逐渐增强的。div无任何语义，仅仅用作样式化或者脚本化的钩子(hook)。鉴于div标签的不足，HTML5中新增的section和article比较明确地定义了文档结构，便于搜索引擎、浏览器等工具解析该页面；推荐开发人员在工作中广泛使用。对于一段主题性的内容，可以采用section；假如这段内容可以脱离上下文，作为完整的独立存在的一段内容，那么就采用article。</p>
+	
+</head>
+<body>
+
+</body>
+</html>

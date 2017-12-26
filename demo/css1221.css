@@ -1,0 +1,95 @@
+.test{color: #f0f;font-size: 25px}
+.select-one{color: white;
+	font-size: 30px;
+	width: 800px;
+	height: 50px;
+	background-color: pink
+}
+.select-two{color: black;
+	font-size: 20px;
+	width: 400px;
+	height: 30px;
+	background-color: blue
+}
+span{
+	color: #f00
+}
+
+#fake-class a:link{
+	color: red;
+}
+#fake-class a:visited{
+	color: black;
+}
+#fake-class a:hover{
+	color: pink;
+}
+.#fake-class a:active{
+	color: yellow;
+}
+
+.first-letter:first-letter{
+	color: red;
+	font-size: 30px;
+}
+.first-line:first-line{
+	color: blue;
+	font-size: 30px;
+}
+.before:before{
+	content: url("before.jpg");
+}
+
+.border{
+	width: 300px;
+	height: 150px;
+	border: 2px dashed red;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	background-color: blue;
+	overflow: hidden;
+}
+
+.username{
+	border: 1px dashed red;
+	padding: 5px;
+}
+.username:focus{
+	background-color: yellow;
+}
+#eid{
+	border-bottom: 1px dotted red;
+	margin: 10px;
+}
+.search{
+	border: 1px solid white;
+	background-image: url("before.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+}
+div,.welcome,#title{
+	color: red;
+	font-size: 24px;
+}
+
+
+.block{
+	height: 200px;
+	background-color: red;
+	display: block;
+}
+
+.inline{
+	background-color: pink;
+	display: inline;
+}
+
+.inline-block{
+	height: 100px;
+	background-color: blue;
+	display: inline-block;
+}
+

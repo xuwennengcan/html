@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS概述</title>
+	<link rel="stylesheet" type="text/css" href="css1221.css">
+</head>
+<body>
+	第一种：内嵌式写法
+    <style type="text/css">
+      /*此处为CSS代码*/
+    </style>
+	在该写法中，将CSS样式写在<head></head>标签中
+	<br>
+	第二种：外链式写法 
+	与内嵌式写法中直接把CSS写在了<head></head>中不同，在外嵌式写法中是把CSS写在了专门的.css文件里，然后在html中通过<link>标签引用即可
+	<p class="test">
+	你好		
+	</p>
+	<br>
+	第三种：行内式写法 
+	在这种写法中，直接在标签内使用style属性设置样式。
+	<p style="color:blue; font-size:40px">欢迎访问我的博客。</p>
+    <br>
+    <p style="color:yellow; font-size:30px">谷哥的小弟</p>
+    <br>
+    <p style="color:red; font-size:50px">http://blog.csdn.net/lfdfhl</p>
+</body>
+</html>

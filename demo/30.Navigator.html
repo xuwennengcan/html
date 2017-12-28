@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Navigator</title>
+	
+</head>
+<body>
+	<script type="text/javascript">
+		var nav = window.navigator;
+		var result = "浏览器信息:<br>";
+		for(var propertyName in nav){
+			result = result+propertyName+" : "+nav[propertyName]+"<br>";
+		}
+		document.writeln(result);
+		//console.log(window.navigator);
+	</script>
+
+	<<script src="js30Navigator.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>

@@ -22,7 +22,7 @@ header{
 	width: 100%;
 }
 
-nav{
+.nav{
 	width: 100%;
 	height: 60px;
 	margin: 0 auto;
@@ -56,9 +56,15 @@ nav li{
 }
 
 aside{
-	position: fixed;
-	top: 100px;
-	left: 100px;
+	position: relative;
+	top: 20px;
+	animation: swimg 2s infinite;
+
+}
+
+@keyframes swimg{
+	from {left:0px;}
+	to {left:100%;}
 }
 
 .list_section{
@@ -72,11 +78,10 @@ aside{
 .list_div{
 	width: 100%;
 	position: relative;
-	animation: swimg 9s linear infinite normal;
 }
 
 .list_ul{
-	width: fill;
+	width: 100%;
 	float: left;
 }
 
@@ -86,7 +91,92 @@ aside{
 	margin: 10px;
 }
 
+.list_li:hover,.list_li:active{
+	color: orange;
+}
+
+.mid{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.all{
+	color: orange;
+}
+
+.midnav{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.midnav a{
+	width: 100px;
+	margin-left: 30px;
+}
+
+.more{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #888888;
+	text-align: center;
+	font-size: 24px;
+	margin: 20px auto ;
+}
+
+.more a{
+	color: #000;
+}
 
 
+
+.footer1{
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(50, 50, 50, 0.3);
+	display: inline-flex;
+	text-align: center;
+}
+
+.footer2{
+	width: 100%;
+	height: 50px;
+	top: 100px;
+	background: rgba(50, 50, 50, 0.6);
+}
+
+.footnav{
+	border-right: 1px solid rgba(60, 60, 30, 0.3);
+}
+
+.footnav h3{
+	font-weight: normal;
+	color: rgba(30, 30, 30, 0.8);
+}
+
+.footernav3{
+	border: none;
+}
+
+.foot-list{
+	margin: 10px;
+}
+
+.foot{
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #c2c2c2;
+	text-align: center;
+}
+
+.foot a{
+	color: #fff
+}
 
 

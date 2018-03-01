@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.header{
+	height: 50%;
+	width: 50%;
+	background: #ccc;
+	margin: 0 auto;
+}
+
+.main{
+	width: 100%;
+	height: 50%;
+	background: #ddd;
+}
+
+.main .left,.main .right{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: yellow;
+}
+
+.main .right{
+	background: green;
+}
